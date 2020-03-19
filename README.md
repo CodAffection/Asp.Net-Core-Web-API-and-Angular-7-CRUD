@@ -6,6 +6,8 @@
  
 
  # Step By Step Explanation
+ 
+ This project is updated to latest Angular and Asp.Net Core Version : check out this article : http://bit.ly/2WezUhy
 
  Video Tutorial : https://youtu.be/fom80TujpYQ
  

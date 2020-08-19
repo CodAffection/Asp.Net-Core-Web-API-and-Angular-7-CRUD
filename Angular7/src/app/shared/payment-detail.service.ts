@@ -6,7 +6,14 @@ import { HttpClient } from "@angular/common/http";
   providedIn: 'root'
 })
 export class PaymentDetailService {
-  formData: PaymentDetail;
+  formData: PaymentDetail= {
+    CVV: null,
+    CardNumber: null,
+    CardOwnerName: null,
+    ExpirationDate: null,
+    PMId: null
+  };
+  
   readonly rootURL = 'http://localhost:59035/api';
   list : PaymentDetail[];
 
